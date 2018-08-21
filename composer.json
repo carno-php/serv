@@ -1,0 +1,23 @@
+{
+  "name": "carno-php/serv",
+  "license": "MIT",
+  "require": {
+    "php": "^7.2",
+    "carno-php/net": "^1.0",
+    "carno-php/coroutine": "^1.0"
+  },
+  "suggest": {
+    "ext-swoole": "Supports TCP/UDP/HTTP/WS server"
+  },
+  "autoload": {
+    "psr-4": {
+      "Carno\\Serv\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
