@@ -74,7 +74,7 @@ abstract class ServerBase implements Serving
      */
     protected function ctx() : Context
     {
-        return $this->ctx ?? $this->ctx = new Context;
+        return $this->ctx ?? $this->ctx = new Context();
     }
 
     /**
